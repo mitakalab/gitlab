@@ -13,5 +13,6 @@ module Gitlab
     include Gitlab::Client::Repositories
     include Gitlab::Client::MergeRequests
     include Gitlab::Client::Groups
+    include Gitlab::Client::DeployKeys
   end
 end
