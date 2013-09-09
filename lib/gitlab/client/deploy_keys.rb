@@ -49,4 +49,5 @@ class Gitlab::Client
       delete("/projects/#{id}/keys/#{key_id}")
     end
 
+  end
 end
